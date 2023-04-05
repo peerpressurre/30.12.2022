@@ -23,33 +23,37 @@ void quote()
 
 void table()
 {
-	cout << (char)201 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)187 << endl;
-	cout << (char)186 << "               Seasons                 " << (char)186 << endl;
-	cout << (char)204 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)203 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)203 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)203 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)203 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)205 << (char)185 << endl;
-
 	cout << (char)201;
-	for (size_t i = 0; i < 39; i++)
+	for (size_t i = 0; i < 35; i++)
 	{
 		cout << (char)205;
 	}	
 	cout << (char)187 << endl;
-	cout << (char)186 << "               Seasons                 " << (char)186 << endl;
+	cout << (char)186 << "              Seasons              " << (char)186 << endl;
 	cout << (char)204;
-	for (size_t i = 0; i < 39; i++)
+	for (size_t i = 0; i < 35; i++)
 	{
-		(i == 8 || i == 16 || i == 24 || i == 32) ? cout << (char)203 : cout << (char)205;
+		(i == 8 || i == 17 || i == 26 || i == 35) ? cout << (char)203 : cout << (char)205;
 	}
-	cout << (char)185;
-	cout << (char)186 << " Winter " << 
-
+	cout << (char)185 << endl;
+	cout << (char)186 << " Winter " << (char)186 << " Spring " << (char)186 << " Summer " << (char)186 << " Autumn " << (char)186 << endl;
+	cout << (char)200;
+	for (size_t i = 0; i < 35; i++)
+	{
+		(i == 8 || i == 17 || i == 26 || i == 35) ? cout << (char)202 : cout << (char)205;
+	}
+	cout << (char)188 << endl;
 }
 
 int main()
 {
+	cout << "Ex1:\n";
 	info();
 	cout << endl;
+	cout << "Ex2:\n";
 	quote();
 	cout << endl;
+	cout << "Ex3:\n";
 	table();
 	return 0;
 }
