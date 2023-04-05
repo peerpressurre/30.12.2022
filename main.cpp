@@ -40,6 +40,7 @@ void table()
 		(i == 8 || i == 16 || i == 24 || i == 32) ? cout << (char)203 : cout << (char)205;
 	}
 	cout << (char)185;
+	cout << (char)186 << " Winter " << 
 
 }
 
